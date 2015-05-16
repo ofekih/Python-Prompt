@@ -5,7 +5,7 @@ class Prompt(object):
 	""" 
 	This serves as python's much-needed console input system. 
 	Methods in this class have two basic parameters 
-	(Note: either one of these is is optional, the methods have default values for both):
+	(Note: either one of these is optional; the methods have default values for both):
 
 		outputText (string) The text to display while asking for an input
 		parameters (dictionary) The parameters to customize and control user input
