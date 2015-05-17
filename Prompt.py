@@ -13,9 +13,9 @@ class Prompt(object):
 	List of available keys in the parameters dictionary:
 
 		User input control:
-		alphabetical (boolean) True if the string has to be made solely of alphabetical chars, False if it cannot have a single one
+		alphabetical (boolean) Requires string to be made either completely from letters or vice verca
 		even (boolean) True if input value must be even, False if must be odd
-		exists (boolean) When getting a filename, checks if file exists or not (False means file cannot already exist)
+		exists (boolean) For files, checks if file exists or not (False means file cannot already exist)
 		exiton (string or string list) When getting multiple inputs, user exits by typing one of these strings
 		extension (string) When getting a filename, checks if input's extension matches requested extension
 		max (matches 'type') The maximum value for an input
